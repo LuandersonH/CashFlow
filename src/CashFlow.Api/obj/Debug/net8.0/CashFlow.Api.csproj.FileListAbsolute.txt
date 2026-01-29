@@ -44,3 +44,4 @@ C:\Estudos\Rockeatseat\C#\CashFlow\src\CashFlow.Api\obj\Debug\net8.0\refint\Cash
 C:\Estudos\Rockeatseat\C#\CashFlow\src\CashFlow.Api\obj\Debug\net8.0\CashFlow.Api.pdb
 C:\Estudos\Rockeatseat\C#\CashFlow\src\CashFlow.Api\obj\Debug\net8.0\CashFlow.Api.genruntimeconfig.cache
 C:\Estudos\Rockeatseat\C#\CashFlow\src\CashFlow.Api\obj\Debug\net8.0\ref\CashFlow.Api.dll
+C:\Estudos\Rockeatseat\C#\CashFlow\src\CashFlow.Api\obj\Debug\net8.0\CashFlow.Api.sourcelink.json

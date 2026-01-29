@@ -17,3 +17,4 @@ C:\Estudos\Rockeatseat\C#\CashFlow\src\CashFlow.Application\obj\Debug\net8.0\Cas
 C:\Estudos\Rockeatseat\C#\CashFlow\src\CashFlow.Application\obj\Debug\net8.0\refint\CashFlow.Application.dll
 C:\Estudos\Rockeatseat\C#\CashFlow\src\CashFlow.Application\obj\Debug\net8.0\CashFlow.Application.pdb
 C:\Estudos\Rockeatseat\C#\CashFlow\src\CashFlow.Application\obj\Debug\net8.0\ref\CashFlow.Application.dll
+C:\Estudos\Rockeatseat\C#\CashFlow\src\CashFlow.Application\obj\Debug\net8.0\CashFlow.Application.sourcelink.json
