@@ -37,7 +37,6 @@ C:\Estudos\Rockeatseat\C#\CashFlow\src\CashFlow.Api\obj\Debug\net8.0\staticwebas
 C:\Estudos\Rockeatseat\C#\CashFlow\src\CashFlow.Api\obj\Debug\net8.0\staticwebassets.development.json
 C:\Estudos\Rockeatseat\C#\CashFlow\src\CashFlow.Api\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Estudos\Rockeatseat\C#\CashFlow\src\CashFlow.Api\obj\Debug\net8.0\swae.build.ex.cache
-C:\Estudos\Rockeatseat\C#\CashFlow\src\CashFlow.Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Estudos\Rockeatseat\C#\CashFlow\src\CashFlow.Api\obj\Debug\net8.0\CashFlow.98401D01.Up2Date
 C:\Estudos\Rockeatseat\C#\CashFlow\src\CashFlow.Api\obj\Debug\net8.0\CashFlow.Api.dll
 C:\Estudos\Rockeatseat\C#\CashFlow\src\CashFlow.Api\obj\Debug\net8.0\refint\CashFlow.Api.dll
@@ -45,3 +44,4 @@ C:\Estudos\Rockeatseat\C#\CashFlow\src\CashFlow.Api\obj\Debug\net8.0\CashFlow.Ap
 C:\Estudos\Rockeatseat\C#\CashFlow\src\CashFlow.Api\obj\Debug\net8.0\CashFlow.Api.genruntimeconfig.cache
 C:\Estudos\Rockeatseat\C#\CashFlow\src\CashFlow.Api\obj\Debug\net8.0\ref\CashFlow.Api.dll
 C:\Estudos\Rockeatseat\C#\CashFlow\src\CashFlow.Api\obj\Debug\net8.0\CashFlow.Api.sourcelink.json
+C:\Estudos\Rockeatseat\C#\CashFlow\src\CashFlow.Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
