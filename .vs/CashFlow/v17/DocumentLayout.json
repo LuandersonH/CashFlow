@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Estudos\\Rockeatseat\\C#\\CashFlow\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9FC88A41-7DF1-429F-BFF3-968BA7E183F5}|tests\\Validators.Tests\\Validators.Tests.csproj|c:\\estudos\\rockeatseat\\c#\\cashflow\\tests\\validators.tests\\expenses\\register\\registerexpensevalidatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FC88A41-7DF1-429F-BFF3-968BA7E183F5}|tests\\Validators.Tests\\Validators.Tests.csproj|solutionrelative:tests\\validators.tests\\expenses\\register\\registerexpensevalidatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "registerExpenseValidatorTests.cs",
+              "DocumentMoniker": "C:\\Estudos\\Rockeatseat\\C#\\CashFlow\\tests\\Validators.Tests\\Expenses\\Register\\registerExpenseValidatorTests.cs",
+              "RelativeDocumentMoniker": "tests\\Validators.Tests\\Expenses\\Register\\registerExpenseValidatorTests.cs",
+              "ToolTip": "C:\\Estudos\\Rockeatseat\\C#\\CashFlow\\tests\\Validators.Tests\\Expenses\\Register\\registerExpenseValidatorTests.cs",
+              "RelativeToolTip": "tests\\Validators.Tests\\Expenses\\Register\\registerExpenseValidatorTests.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T00:20:24.77Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
