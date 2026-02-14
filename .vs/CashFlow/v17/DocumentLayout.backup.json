@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Estudos\\Rockeatseat\\C#\\CashFlow\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DBA0494F-DB57-4465-842E-854CFD470E84}|tests\\CommomTestUtilities\\CommomTestUtilities.csproj|c:\\estudos\\rockeatseat\\c#\\cashflow\\tests\\commomtestutilities\\requests\\requestregisterexpensejsonbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBA0494F-DB57-4465-842E-854CFD470E84}|tests\\CommomTestUtilities\\CommomTestUtilities.csproj|solutionrelative:tests\\commomtestutilities\\requests\\requestregisterexpensejsonbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9FC88A41-7DF1-429F-BFF3-968BA7E183F5}|tests\\Validators.Tests\\Validators.Tests.csproj|c:\\estudos\\rockeatseat\\c#\\cashflow\\tests\\validators.tests\\expenses\\register\\registerexpensevalidatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FC88A41-7DF1-429F-BFF3-968BA7E183F5}|tests\\Validators.Tests\\Validators.Tests.csproj|solutionrelative:tests\\validators.tests\\expenses\\register\\registerexpensevalidatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA0494F-DB57-4465-842E-854CFD470E84}|tests\\CommomTestUtilities\\CommomTestUtilities.csproj|c:\\estudos\\rockeatseat\\c#\\cashflow\\tests\\commomtestutilities\\requests\\requestregisterexpensejsonbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBA0494F-DB57-4465-842E-854CFD470E84}|tests\\CommomTestUtilities\\CommomTestUtilities.csproj|solutionrelative:tests\\commomtestutilities\\requests\\requestregisterexpensejsonbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "RegisterExpenseValidatorTests.cs",
               "DocumentMoniker": "C:\\Estudos\\Rockeatseat\\C#\\CashFlow\\tests\\Validators.Tests\\Expenses\\Register\\RegisterExpenseValidatorTests.cs",
               "RelativeDocumentMoniker": "tests\\Validators.Tests\\Expenses\\Register\\RegisterExpenseValidatorTests.cs",
               "ToolTip": "C:\\Estudos\\Rockeatseat\\C#\\CashFlow\\tests\\Validators.Tests\\Expenses\\Register\\RegisterExpenseValidatorTests.cs",
               "RelativeToolTip": "tests\\Validators.Tests\\Expenses\\Register\\RegisterExpenseValidatorTests.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-14T12:48:58.51Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "RequestRegisterExpenseJsonBuilder.cs",
               "DocumentMoniker": "C:\\Estudos\\Rockeatseat\\C#\\CashFlow\\tests\\CommomTestUtilities\\Requests\\RequestRegisterExpenseJsonBuilder.cs",
               "RelativeDocumentMoniker": "tests\\CommomTestUtilities\\Requests\\RequestRegisterExpenseJsonBuilder.cs",
               "ToolTip": "C:\\Estudos\\Rockeatseat\\C#\\CashFlow\\tests\\CommomTestUtilities\\Requests\\RequestRegisterExpenseJsonBuilder.cs",
               "RelativeToolTip": "tests\\CommomTestUtilities\\Requests\\RequestRegisterExpenseJsonBuilder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-14T12:47:42.961Z",
               "EditorCaption": ""

@@ -6,7 +6,7 @@ namespace CommomTestUtilities.Requests;
 
 public class RequestRegisterExpenseJsonBuilder
 {
-    public RequestRegisterExpenseJson Build()
+    public static RequestRegisterExpenseJson Build()
     {
 
         var faker = new Faker();

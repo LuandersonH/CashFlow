@@ -1,0 +1,16 @@
+C:\Estudos\Rockeatseat\C#\CashFlow\tests\CommomTestUtilities\bin\Debug\net8.0\CommomTestUtilities.deps.json
+C:\Estudos\Rockeatseat\C#\CashFlow\tests\CommomTestUtilities\bin\Debug\net8.0\CommomTestUtilities.dll
+C:\Estudos\Rockeatseat\C#\CashFlow\tests\CommomTestUtilities\bin\Debug\net8.0\CommomTestUtilities.pdb
+C:\Estudos\Rockeatseat\C#\CashFlow\tests\CommomTestUtilities\bin\Debug\net8.0\CashFlow.Communication.dll
+C:\Estudos\Rockeatseat\C#\CashFlow\tests\CommomTestUtilities\bin\Debug\net8.0\CashFlow.Communication.pdb
+C:\Estudos\Rockeatseat\C#\CashFlow\tests\CommomTestUtilities\obj\Debug\net8.0\CommomTestUtilities.csproj.AssemblyReference.cache
+C:\Estudos\Rockeatseat\C#\CashFlow\tests\CommomTestUtilities\obj\Debug\net8.0\CommomTestUtilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Estudos\Rockeatseat\C#\CashFlow\tests\CommomTestUtilities\obj\Debug\net8.0\CommomTestUtilities.AssemblyInfoInputs.cache
+C:\Estudos\Rockeatseat\C#\CashFlow\tests\CommomTestUtilities\obj\Debug\net8.0\CommomTestUtilities.AssemblyInfo.cs
+C:\Estudos\Rockeatseat\C#\CashFlow\tests\CommomTestUtilities\obj\Debug\net8.0\CommomTestUtilities.csproj.CoreCompileInputs.cache
+C:\Estudos\Rockeatseat\C#\CashFlow\tests\CommomTestUtilities\obj\Debug\net8.0\CommomTestUtilities.sourcelink.json
+C:\Estudos\Rockeatseat\C#\CashFlow\tests\CommomTestUtilities\obj\Debug\net8.0\CommomTe.98287853.Up2Date
+C:\Estudos\Rockeatseat\C#\CashFlow\tests\CommomTestUtilities\obj\Debug\net8.0\CommomTestUtilities.dll
+C:\Estudos\Rockeatseat\C#\CashFlow\tests\CommomTestUtilities\obj\Debug\net8.0\refint\CommomTestUtilities.dll
+C:\Estudos\Rockeatseat\C#\CashFlow\tests\CommomTestUtilities\obj\Debug\net8.0\CommomTestUtilities.pdb
+C:\Estudos\Rockeatseat\C#\CashFlow\tests\CommomTestUtilities\obj\Debug\net8.0\ref\CommomTestUtilities.dll
