@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Estudos\\Rockeatseat\\C#\\CashFlow\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9FC88A41-7DF1-429F-BFF3-968BA7E183F5}|tests\\Validators.Tests\\Validators.Tests.csproj|c:\\estudos\\rockeatseat\\c#\\cashflow\\tests\\validators.tests\\expenses\\register\\registerexpensevalidatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FC88A41-7DF1-429F-BFF3-968BA7E183F5}|tests\\Validators.Tests\\Validators.Tests.csproj|solutionrelative:tests\\validators.tests\\expenses\\register\\registerexpensevalidatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A737EC5-0D04-4A51-BEAE-747D595D7164}|src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj|c:\\estudos\\rockeatseat\\c#\\cashflow\\src\\cashflow.infrastructure\\cashflow.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2A737EC5-0D04-4A51-BEAE-747D595D7164}|src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj|solutionrelative:src\\cashflow.infrastructure\\cashflow.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBA0494F-DB57-4465-842E-854CFD470E84}|tests\\CommomTestUtilities\\CommomTestUtilities.csproj|c:\\estudos\\rockeatseat\\c#\\cashflow\\tests\\commomtestutilities\\requests\\requestregisterexpensejsonbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBA0494F-DB57-4465-842E-854CFD470E84}|tests\\CommomTestUtilities\\CommomTestUtilities.csproj|solutionrelative:tests\\commomtestutilities\\requests\\requestregisterexpensejsonbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9BB03CE-8E30-4D1F-9954-B11E715B8998}|src\\CashFlow.Domain\\CashFlow.Domain.csproj|c:\\estudos\\rockeatseat\\c#\\cashflow\\src\\cashflow.domain\\entities\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9BB03CE-8E30-4D1F-9954-B11E715B8998}|src\\CashFlow.Domain\\CashFlow.Domain.csproj|solutionrelative:src\\cashflow.domain\\entities\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RegisterExpenseValidatorTests.cs",
-              "DocumentMoniker": "C:\\Estudos\\Rockeatseat\\C#\\CashFlow\\tests\\Validators.Tests\\Expenses\\Register\\RegisterExpenseValidatorTests.cs",
-              "RelativeDocumentMoniker": "tests\\Validators.Tests\\Expenses\\Register\\RegisterExpenseValidatorTests.cs",
-              "ToolTip": "C:\\Estudos\\Rockeatseat\\C#\\CashFlow\\tests\\Validators.Tests\\Expenses\\Register\\RegisterExpenseValidatorTests.cs",
-              "RelativeToolTip": "tests\\Validators.Tests\\Expenses\\Register\\RegisterExpenseValidatorTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-14T12:48:58.51Z",
+              "Title": "CashFlow.Infrastructure",
+              "DocumentMoniker": "C:\\Estudos\\Rockeatseat\\C#\\CashFlow\\src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj",
+              "ToolTip": "C:\\Estudos\\Rockeatseat\\C#\\CashFlow\\src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj",
+              "RelativeToolTip": "src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-16T23:30:35.471Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "RequestRegisterExpenseJsonBuilder.cs",
-              "DocumentMoniker": "C:\\Estudos\\Rockeatseat\\C#\\CashFlow\\tests\\CommomTestUtilities\\Requests\\RequestRegisterExpenseJsonBuilder.cs",
-              "RelativeDocumentMoniker": "tests\\CommomTestUtilities\\Requests\\RequestRegisterExpenseJsonBuilder.cs",
-              "ToolTip": "C:\\Estudos\\Rockeatseat\\C#\\CashFlow\\tests\\CommomTestUtilities\\Requests\\RequestRegisterExpenseJsonBuilder.cs",
-              "RelativeToolTip": "tests\\CommomTestUtilities\\Requests\\RequestRegisterExpenseJsonBuilder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Title": "Expense.cs",
+              "DocumentMoniker": "C:\\Estudos\\Rockeatseat\\C#\\CashFlow\\src\\CashFlow.Domain\\Entities\\Expense.cs",
+              "RelativeDocumentMoniker": "src\\CashFlow.Domain\\Entities\\Expense.cs",
+              "ToolTip": "C:\\Estudos\\Rockeatseat\\C#\\CashFlow\\src\\CashFlow.Domain\\Entities\\Expense.cs",
+              "RelativeToolTip": "src\\CashFlow.Domain\\Entities\\Expense.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-14T12:47:42.961Z",
+              "WhenOpened": "2026-02-16T22:52:52.708Z",
               "EditorCaption": ""
             }
           ]

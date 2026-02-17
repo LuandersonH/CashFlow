@@ -1144,6 +1144,8 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "CashFlow.Application >= 1.0.0",
+      "CashFlow.Communication >= 1.0.0",
+      "CashFlow.Exception >= 1.0.0",
       "CommomTestUtilities >= 1.0.0",
       "FluentAssertions >= 8.8.0",
       "Microsoft.NET.Test.Sdk >= 17.8.0",
@@ -1186,6 +1188,12 @@
           "projectReferences": {
             "C:\\Estudos\\Rockeatseat\\C#\\CashFlow\\src\\CashFlow.Application\\CashFlow.Application.csproj": {
               "projectPath": "C:\\Estudos\\Rockeatseat\\C#\\CashFlow\\src\\CashFlow.Application\\CashFlow.Application.csproj"
+            },
+            "C:\\Estudos\\Rockeatseat\\C#\\CashFlow\\src\\CashFlow.Communication\\CashFlow.Communication.csproj": {
+              "projectPath": "C:\\Estudos\\Rockeatseat\\C#\\CashFlow\\src\\CashFlow.Communication\\CashFlow.Communication.csproj"
+            },
+            "C:\\Estudos\\Rockeatseat\\C#\\CashFlow\\src\\CashFlow.Exception\\CashFlow.Exception.csproj": {
+              "projectPath": "C:\\Estudos\\Rockeatseat\\C#\\CashFlow\\src\\CashFlow.Exception\\CashFlow.Exception.csproj"
             },
             "C:\\Estudos\\Rockeatseat\\C#\\CashFlow\\tests\\CommomTestUtilities\\CommomTestUtilities.csproj": {
               "projectPath": "C:\\Estudos\\Rockeatseat\\C#\\CashFlow\\tests\\CommomTestUtilities\\CommomTestUtilities.csproj"

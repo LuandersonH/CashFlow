@@ -9,6 +9,8 @@
       "Validators.Tests/1.0.0": {
         "dependencies": {
           "CashFlow.Application": "1.0.0",
+          "CashFlow.Communication": "1.0.0",
+          "CashFlow.Exception": "1.0.0",
           "CommomTestUtilities": "1.0.0",
           "FluentAssertions": "8.8.0",
           "Microsoft.NET.Test.Sdk": "17.8.0",
