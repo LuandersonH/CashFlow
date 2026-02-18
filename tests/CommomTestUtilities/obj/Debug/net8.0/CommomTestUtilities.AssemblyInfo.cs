@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CommomTestUtilities")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a93674639a00a5a3e614ce93351e59de8611e39a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+599056b65c75339d3aeb9d29960777d3a68d191f")]
 [assembly: System.Reflection.AssemblyProductAttribute("CommomTestUtilities")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CommomTestUtilities")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

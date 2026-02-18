@@ -26,11 +26,61 @@
           }
         }
       },
+      "Microsoft.EntityFrameworkCore/8.0.24": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Abstractions": "8.0.24"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.EntityFrameworkCore.dll": {
+            "assemblyVersion": "8.0.24.0",
+            "fileVersion": "8.0.2426.7202"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Abstractions/8.0.24": {
+        "runtime": {
+          "lib/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {
+            "assemblyVersion": "8.0.24.0",
+            "fileVersion": "8.0.2426.7202"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Relational/8.0.13": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "8.0.24"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.EntityFrameworkCore.Relational.dll": {
+            "assemblyVersion": "8.0.13.0",
+            "fileVersion": "8.0.1325.6604"
+          }
+        }
+      },
       "Microsoft.OpenApi/1.6.14": {
         "runtime": {
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {
             "assemblyVersion": "1.6.14.0",
             "fileVersion": "1.6.14.0"
+          }
+        }
+      },
+      "MySqlConnector/2.3.5": {
+        "runtime": {
+          "lib/net8.0/MySqlConnector.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.3.5.0"
+          }
+        }
+      },
+      "Pomelo.EntityFrameworkCore.MySql/8.0.3": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "8.0.13",
+          "MySqlConnector": "2.3.5"
+        },
+        "runtime": {
+          "lib/net8.0/Pomelo.EntityFrameworkCore.MySql.dll": {
+            "assemblyVersion": "8.0.3.0",
+            "fileVersion": "8.0.3.0"
           }
         }
       },
@@ -76,6 +126,7 @@
           "CashFlow.Communication": "1.0.0",
           "CashFlow.Domain": "1.0.0",
           "CashFlow.Exception": "1.0.0",
+          "CashFlow.Infrastructure": "1.0.0",
           "FluentValidation": "12.1.1"
         },
         "runtime": {
@@ -122,7 +173,9 @@
       },
       "CashFlow.Infrastructure/1.0.0": {
         "dependencies": {
-          "CashFlow.Domain": "1.0.0"
+          "CashFlow.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "8.0.24",
+          "Pomelo.EntityFrameworkCore.MySql": "8.0.3"
         },
         "runtime": {
           "CashFlow.Infrastructure.dll": {
@@ -146,12 +199,47 @@
       "path": "fluentvalidation/12.1.1",
       "hashPath": "fluentvalidation.12.1.1.nupkg.sha512"
     },
+    "Microsoft.EntityFrameworkCore/8.0.24": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Jf82MqfFU3Nte4Cpmtq5HXhQfXHYhJawFawWuy281uiibg/Ch9z9D/gMnORFhjmGSxzSA4CmRaHwDm2lU9H/ZA==",
+      "path": "microsoft.entityframeworkcore/8.0.24",
+      "hashPath": "microsoft.entityframeworkcore.8.0.24.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Abstractions/8.0.24": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-epzWc4RnG6aQS+MfIK1gg1XbL8ZTYgKtW8L1lDVHG4C3nilLd6tX8moX6Sv8sXQkH/tMhWhT2e4Nm811kYeoxg==",
+      "path": "microsoft.entityframeworkcore.abstractions/8.0.24",
+      "hashPath": "microsoft.entityframeworkcore.abstractions.8.0.24.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Relational/8.0.13": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uQR2iTar+6ZEjEHTwgH0/7ySSRme4R9sDiupfG3w/eBub3365fPw/MjhsuOMQkdq9YzLM7veH4Qt/K9OqL26Qg==",
+      "path": "microsoft.entityframeworkcore.relational/8.0.13",
+      "hashPath": "microsoft.entityframeworkcore.relational.8.0.13.nupkg.sha512"
+    },
     "Microsoft.OpenApi/1.6.14": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-tTaBT8qjk3xINfESyOPE2rIellPvB7qpVqiWiyA/lACVvz+xOGiXhFUfohcx82NLbi5avzLW0lx+s6oAqQijfw==",
       "path": "microsoft.openapi/1.6.14",
       "hashPath": "microsoft.openapi.1.6.14.nupkg.sha512"
+    },
+    "MySqlConnector/2.3.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AmEfUPkFl+Ev6jJ8Dhns3CYHBfD12RHzGYWuLt6DfG6/af6YvOMyPz74ZPPjBYQGRJkumD2Z48Kqm8s5DJuhLA==",
+      "path": "mysqlconnector/2.3.5",
+      "hashPath": "mysqlconnector.2.3.5.nupkg.sha512"
+    },
+    "Pomelo.EntityFrameworkCore.MySql/8.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gOHP6v/nFp5V/FgHqv9mZocGqCLGofihEX9dTbLhiXX3H7SJHmGX70GIPUpiqLT+1jIfDxg1PZh9MTUKuk7Kig==",
+      "path": "pomelo.entityframeworkcore.mysql/8.0.3",
+      "hashPath": "pomelo.entityframeworkcore.mysql.8.0.3.nupkg.sha512"
     },
     "Swashbuckle.AspNetCore/6.6.2": {
       "type": "package",
