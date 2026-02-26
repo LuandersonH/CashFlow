@@ -5,8 +5,8 @@ C:\Estudos\Rockeatseat\C#\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\CashFlow
 C:\Estudos\Rockeatseat\C#\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\CashFlow.Domain.AssemblyInfoInputs.cache
 C:\Estudos\Rockeatseat\C#\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\CashFlow.Domain.AssemblyInfo.cs
 C:\Estudos\Rockeatseat\C#\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\CashFlow.Domain.csproj.CoreCompileInputs.cache
+C:\Estudos\Rockeatseat\C#\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\CashFlow.Domain.sourcelink.json
 C:\Estudos\Rockeatseat\C#\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\CashFlow.Domain.dll
 C:\Estudos\Rockeatseat\C#\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\refint\CashFlow.Domain.dll
 C:\Estudos\Rockeatseat\C#\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\CashFlow.Domain.pdb
 C:\Estudos\Rockeatseat\C#\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\ref\CashFlow.Domain.dll
-C:\Estudos\Rockeatseat\C#\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\CashFlow.Domain.sourcelink.json
