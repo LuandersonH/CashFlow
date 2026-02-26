@@ -126,7 +126,6 @@
           "CashFlow.Communication": "1.0.0",
           "CashFlow.Domain": "1.0.0",
           "CashFlow.Exception": "1.0.0",
-          "CashFlow.Infrastructure": "1.0.0",
           "FluentValidation": "12.1.1"
         },
         "runtime": {
