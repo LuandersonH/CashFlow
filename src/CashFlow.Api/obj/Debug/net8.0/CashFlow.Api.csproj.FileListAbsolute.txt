@@ -6,6 +6,7 @@ C:\Estudos\Rockeatseat\C#\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\CashFlow.Ap
 C:\Estudos\Rockeatseat\C#\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\CashFlow.Api.runtimeconfig.json
 C:\Estudos\Rockeatseat\C#\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\CashFlow.Api.dll
 C:\Estudos\Rockeatseat\C#\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\CashFlow.Api.pdb
+C:\Estudos\Rockeatseat\C#\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\AutoMapper.dll
 C:\Estudos\Rockeatseat\C#\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\FluentValidation.dll
 C:\Estudos\Rockeatseat\C#\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
 C:\Estudos\Rockeatseat\C#\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
