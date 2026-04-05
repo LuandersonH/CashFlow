@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{B7545673-2787-403F-A059-CC053C7AEF95}|src\\CashFlow.Application\\CashFlow.Application.csproj|solutionrelative:src\\cashflow.application\\usecases\\expenses\\register\\registerexpenseusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7545673-2787-403F-A059-CC053C7AEF95}|src\\CashFlow.Application\\CashFlow.Application.csproj|c:\\estudos\\rockeatseat\\c#\\cashflow\\src\\cashflow.application\\usecases\\expenses\\getbyid\\getexpensebyidusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7545673-2787-403F-A059-CC053C7AEF95}|src\\CashFlow.Application\\CashFlow.Application.csproj|solutionrelative:src\\cashflow.application\\usecases\\expenses\\getbyid\\getexpensebyidusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B099D9BC-F298-4443-A83E-9B3E5F7DF9E2}|src\\CashFlow.Api\\CashFlow.Api.csproj|c:\\estudos\\rockeatseat\\c#\\cashflow\\src\\cashflow.api\\controllers\\expensescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B099D9BC-F298-4443-A83E-9B3E5F7DF9E2}|src\\CashFlow.Api\\CashFlow.Api.csproj|solutionrelative:src\\cashflow.api\\controllers\\expensescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7545673-2787-403F-A059-CC053C7AEF95}|src\\CashFlow.Application\\CashFlow.Application.csproj|c:\\estudos\\rockeatseat\\c#\\cashflow\\src\\cashflow.application\\usecases\\expenses\\getall\\getallexpenseusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7545673-2787-403F-A059-CC053C7AEF95}|src\\CashFlow.Application\\CashFlow.Application.csproj|solutionrelative:src\\cashflow.application\\usecases\\expenses\\getall\\getallexpenseusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B099D9BC-F298-4443-A83E-9B3E5F7DF9E2}|src\\CashFlow.Api\\CashFlow.Api.csproj|c:\\estudos\\rockeatseat\\c#\\cashflow\\src\\cashflow.api\\filters\\exceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B099D9BC-F298-4443-A83E-9B3E5F7DF9E2}|src\\CashFlow.Api\\CashFlow.Api.csproj|solutionrelative:src\\cashflow.api\\filters\\exceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,35 +32,35 @@
               "RelativeDocumentMoniker": "src\\CashFlow.Application\\UseCases\\Expenses\\Register\\RegisterExpenseUseCase.cs",
               "ToolTip": "C:\\Estudos\\Rockeatseat\\C#\\CashFlow\\src\\CashFlow.Application\\UseCases\\Expenses\\Register\\RegisterExpenseUseCase.cs",
               "RelativeToolTip": "src\\CashFlow.Application\\UseCases\\Expenses\\Register\\RegisterExpenseUseCase.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAlwBsAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-04T23:40:48.56Z",
+              "WhenOpened": "2026-04-05T16:58:37.098Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GetExpenseByIdUseCase.cs",
-              "DocumentMoniker": "C:\\Estudos\\Rockeatseat\\C#\\CashFlow\\src\\CashFlow.Application\\UseCases\\Expenses\\GetById\\GetExpenseByIdUseCase.cs",
-              "RelativeDocumentMoniker": "src\\CashFlow.Application\\UseCases\\Expenses\\GetById\\GetExpenseByIdUseCase.cs",
-              "ToolTip": "C:\\Estudos\\Rockeatseat\\C#\\CashFlow\\src\\CashFlow.Application\\UseCases\\Expenses\\GetById\\GetExpenseByIdUseCase.cs",
-              "RelativeToolTip": "src\\CashFlow.Application\\UseCases\\Expenses\\GetById\\GetExpenseByIdUseCase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAhAAAAAAAAAA==",
+              "Title": "ExpensesController.cs",
+              "DocumentMoniker": "C:\\Estudos\\Rockeatseat\\C#\\CashFlow\\src\\CashFlow.Api\\Controllers\\ExpensesController.cs",
+              "RelativeDocumentMoniker": "src\\CashFlow.Api\\Controllers\\ExpensesController.cs",
+              "ToolTip": "C:\\Estudos\\Rockeatseat\\C#\\CashFlow\\src\\CashFlow.Api\\Controllers\\ExpensesController.cs",
+              "RelativeToolTip": "src\\CashFlow.Api\\Controllers\\ExpensesController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAlwB8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-04T23:40:23.692Z",
+              "WhenOpened": "2026-04-05T16:58:37.117Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "GetAllExpenseUseCase.cs",
-              "DocumentMoniker": "C:\\Estudos\\Rockeatseat\\C#\\CashFlow\\src\\CashFlow.Application\\UseCases\\Expenses\\GetAll\\GetAllExpenseUseCase.cs",
-              "RelativeDocumentMoniker": "src\\CashFlow.Application\\UseCases\\Expenses\\GetAll\\GetAllExpenseUseCase.cs",
-              "ToolTip": "C:\\Estudos\\Rockeatseat\\C#\\CashFlow\\src\\CashFlow.Application\\UseCases\\Expenses\\GetAll\\GetAllExpenseUseCase.cs",
-              "RelativeToolTip": "src\\CashFlow.Application\\UseCases\\Expenses\\GetAll\\GetAllExpenseUseCase.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Title": "ExceptionFilter.cs",
+              "DocumentMoniker": "C:\\Estudos\\Rockeatseat\\C#\\CashFlow\\src\\CashFlow.Api\\Filters\\ExceptionFilter.cs",
+              "RelativeDocumentMoniker": "src\\CashFlow.Api\\Filters\\ExceptionFilter.cs",
+              "ToolTip": "C:\\Estudos\\Rockeatseat\\C#\\CashFlow\\src\\CashFlow.Api\\Filters\\ExceptionFilter.cs",
+              "RelativeToolTip": "src\\CashFlow.Api\\Filters\\ExceptionFilter.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-04T23:39:38.213Z",
+              "WhenOpened": "2026-04-05T16:56:27.727Z",
               "EditorCaption": ""
             }
           ]
