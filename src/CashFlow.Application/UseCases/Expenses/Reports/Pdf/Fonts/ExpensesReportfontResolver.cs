@@ -1,6 +1,5 @@
-﻿using PdfSharp.Charting;
-using PdfSharp.Fonts;
-using static PdfSharp.Snippets.Font.SegoeWpFontResolver;
+﻿using PdfSharp.Fonts;
+using System.Reflection;
 
 namespace CashFlow.Application.UseCases.Expenses.Reports.Pdf.Fonts;
 
@@ -8,11 +7,27 @@ public class ExpensesReportfontResolver : IFontResolver
 {
     byte[]? IFontResolver.GetFont(string faceName)
     {
-        throw new NotImplementedException();
+        var stream = ReadFontFile(faceName);
+        stream ??= ReadFontFile(FontHelper.DEFAULT_FONT);
+
+        var length = (int)stream!.Length;
+
+        var data = new byte[length];
+
+        stream.Read(buffer: data, offset: 0, count: length);
+
+        return data;
     }
 
     FontResolverInfo? IFontResolver.ResolveTypeface(string familyName, bool bold, bool italic)
     {               
         return new FontResolverInfo(familyName);
+    }
+
+    private Stream? ReadFontFile(string faceName)
+    { 
+        var assembly = Assembly.GetExecutingAssembly();
+
+        return assembly.GetManifestResourceStream($"CashFlow.Application.UseCases.Expenses.Reports.Pdf.Fonts.{faceName}.ttf");
     }
 }
