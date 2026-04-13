@@ -31,8 +31,20 @@ public class GenerateExpensesReportPdfUseCase : IGenerateExpensesReportPdfUseCas
         var document = CreateDocument(month);
         var page = CreatePage(document);
 
-        var paragrafh = page.AddParagraph();
+        var table = page.AddTable();
+        table.AddColumn();
+        table.AddColumn();
 
+        var row = table.AddRow();
+        row.Cells[0].AddImage("C:\\LOJAS\\Logotipo.jpg");
+        row.Cells[1].AddParagraph("Olá, Luanderson!");
+        row.Cells[1].Format.Font = new Font { Name = FontHelper.RALEWAY_BLACK, Size = 16 };
+
+
+
+
+
+        var paragrafh = page.AddParagraph();
         var title = string.Format(ResourceReportGenerationMessages.TOTAL_SPENT_IN, month.ToString("Y"));
 
         paragrafh.AddFormattedText(title, new Font { Name = FontHelper.RALEWAY_REGULAR, Size = 15});
@@ -53,8 +65,6 @@ public class GenerateExpensesReportPdfUseCase : IGenerateExpensesReportPdfUseCas
 
         var style = document.Styles["normal"];
         style!.Font.Name = FontHelper.RALEWAY_REGULAR;
-
-
 
         return document;
     }
