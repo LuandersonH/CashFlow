@@ -1,19 +1,20 @@
 ﻿namespace CashFlow.Application.UseCases.Users.Register;
 
 using CashFlow.Communication.Requests;
+using CashFlow.Exception;
 using FluentValidation;
 
 public class RegisterUserValidator : AbstractValidator<RequestRegisterUserJson>
 {
     public RegisterUserValidator()
     {
-        RuleFor(user => user.Name).NotEmpty().WithMessage("Name not can be empty.");
+        RuleFor(user => user.Name).NotEmpty().WithMessage(ResourceErrorMessages.NAME_REQUIRED);
         RuleFor(user => user.Email)
             .NotEmpty()
-            .WithMessage("Email not can be empty.")
+            .WithMessage(ResourceErrorMessages.EMAIL_REQUIRED)
             .EmailAddress()
             .When(user => string.IsNullOrWhiteSpace(user.Email) == false, ApplyConditionTo.CurrentValidator)
-            .WithMessage("Email invalid");
+            .WithMessage(ResourceErrorMessages.EMAIL_INVALID);
 
         RuleFor(user => user.Password).SetValidator(new PasswordValidator<RequestRegisterUserJson>());
     }

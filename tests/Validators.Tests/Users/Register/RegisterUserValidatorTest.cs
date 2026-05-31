@@ -1,5 +1,6 @@
 ﻿using CashFlow.Application.UseCases.Users.Register;
 using CommomTestUtilities.Requests;
+using CashFlow.Exception;
 using FluentAssertions;
 
 namespace Validators.Tests.Users.Register;
@@ -38,7 +39,7 @@ public class RegisterUserValidatorTest
 
         //Assert
         result.IsValid.Should().BeFalse();
-        result.Errors.Should().ContainSingle().And.Contain(e => e.ErrorMessage.Equals("Name not can be empty.") == true);
+        result.Errors.Should().ContainSingle().And.Contain(e => e.ErrorMessage.Equals(ResourceErrorMessages.NAME_REQUIRED) == true);
     }
 
     [Theory]
@@ -57,7 +58,7 @@ public class RegisterUserValidatorTest
 
         //Assert
         result.IsValid.Should().BeFalse();
-        result.Errors.Should().ContainSingle().And.Contain(e => e.ErrorMessage.Equals("Email not can be empty.") == true);
+        result.Errors.Should().ContainSingle().And.Contain(e => e.ErrorMessage.Equals(ResourceErrorMessages.EMAIL_REQUIRED) == true);
     }
 
     [Fact]
@@ -73,6 +74,22 @@ public class RegisterUserValidatorTest
 
         //Assert
         result.IsValid.Should().BeFalse();
-        result.Errors.Should().ContainSingle().And.Contain(e => e.ErrorMessage.Equals("Email invalid") == true);
+        result.Errors.Should().ContainSingle().And.Contain(e => e.ErrorMessage.Equals(ResourceErrorMessages.EMAIL_INVALID) == true);
+    }
+
+    [Fact]  
+    public void Error_Password_Empty()
+    {
+        //Arrange
+        var validator = new RegisterUserValidator();
+        var request = RequestRegisterUserJsonBuilder.Build();
+        request.Password = string.Empty;
+
+        //Act
+        var result = validator.Validate(request);
+
+        //Assert
+        result.IsValid.Should().BeFalse();
+        result.Errors.Should().ContainSingle().And.Contain(e => e.ErrorMessage.Equals(ResourceErrorMessages.PASSWORD_INVALID));
     }
 }

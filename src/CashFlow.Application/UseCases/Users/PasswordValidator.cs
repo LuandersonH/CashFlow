@@ -1,5 +1,6 @@
 ﻿using FluentValidation;
 using FluentValidation.Validators;
+using CashFlow.Exception;
 using System.Text.RegularExpressions;
 
 namespace CashFlow.Application.UseCases.Users;
@@ -8,7 +9,6 @@ public partial class PasswordValidator<T> : PropertyValidator<T, string>
 {
     public override string Name => "PasswordValidator";
     private const string ERROR_MESSAGE_KEY = "ErrorMessage";
-    private const string ERROR_MESSAGE_MSG = "Sua senha deve ter no mínimo 8 caracteres, contendo pelo menos uma letra maiúscula, uma letra minúscula, um número e um caractere especial (por exemplo, !, ?, *, .)";
 
 
     protected override string GetDefaultMessageTemplate(string errorCode)
@@ -22,41 +22,46 @@ public partial class PasswordValidator<T> : PropertyValidator<T, string>
 
         if (string.IsNullOrWhiteSpace(password))
         {
-            context.MessageFormatter.AppendArgument(ERROR_MESSAGE_KEY, ERROR_MESSAGE_MSG);
+            AddErrorMessage(context);
             return false;
         }
 
         if (password.Length < 8)
         {
-            context.MessageFormatter.AppendArgument(ERROR_MESSAGE_KEY, ERROR_MESSAGE_MSG);
+            AddErrorMessage(context);
             return false;
         }
 
         if (UpperCaseLetter().IsMatch(password) == false)
         {
-            context.MessageFormatter.AppendArgument(ERROR_MESSAGE_KEY, ERROR_MESSAGE_MSG);
+            AddErrorMessage(context);
             return false;
         }
 
         if (LowerCaseLetter().IsMatch(password) == false)
         {
-            context.MessageFormatter.AppendArgument(ERROR_MESSAGE_KEY, ERROR_MESSAGE_MSG);
+            AddErrorMessage(context);
             return false;
         }
 
         if (Numbers().IsMatch(password) == false)
         {
-            context.MessageFormatter.AppendArgument(ERROR_MESSAGE_KEY, ERROR_MESSAGE_MSG);
+            AddErrorMessage(context);
             return false;
         }
 
         if (SpecialSymbols().IsMatch(password) == false)
         {
-            context.MessageFormatter.AppendArgument(ERROR_MESSAGE_KEY, ERROR_MESSAGE_MSG);
+            AddErrorMessage(context);
             return false;
         }
 
         return true;
+    }
+
+    private static void AddErrorMessage(ValidationContext<T> context)
+    {
+        context.MessageFormatter.AppendArgument(ERROR_MESSAGE_KEY, ResourceErrorMessages.PASSWORD_INVALID);
     }
 
     [GeneratedRegex(@"[A-Z]+")]

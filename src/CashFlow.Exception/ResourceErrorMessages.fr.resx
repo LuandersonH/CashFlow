@@ -120,6 +120,15 @@
   <data name="AMOUNT_MUST_BE_GREATHER_THAN_ZERO" xml:space="preserve">
     <value>Le montant doit être supérieur à zéro.</value>
   </data>
+  <data name="EMAIL_ALREADY_REGISTERED" xml:space="preserve">
+    <value>L'adresse e-mail est déjà enregistrée.</value>
+  </data>
+  <data name="EMAIL_INVALID" xml:space="preserve">
+    <value>L'adresse e-mail est invalide.</value>
+  </data>
+  <data name="EMAIL_REQUIRED" xml:space="preserve">
+    <value>L'adresse e-mail est obligatoire.</value>
+  </data>
   <data name="EXPENSES_CANNOT_FOR_THE_FUTURE" xml:space="preserve">
     <value>Les dépenses ne peuvent pas être futures.</value>
   </data>
@@ -127,8 +136,17 @@
   <data name="EXPENSE_NOT_FOUND" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
   </data>
+  <data name="INVALID_LOGIN" xml:space="preserve">
+    <value>E-mail et/ou mot de passe invalides.</value>
+  </data>
+  <data name="NAME_REQUIRED" xml:space="preserve">
+    <value>Le nom est obligatoire.</value>
+  </data>
   <data name="PAYMENT_TYPE_INVALID" xml:space="preserve">
     <value>Le type de paiement n'est pas valide.</value>
+  </data>
+  <data name="PASSWORD_INVALID" xml:space="preserve">
+    <value>Le mot de passe doit comporter au moins 8 caractères et contenir au moins une lettre majuscule, une lettre minuscule, un chiffre et un caractère spécial (par exemple, !, ?, *, .).</value>
   </data>
   <data name="TITLE_REQUIRED" xml:space="preserve">
     <value>Le titre est obligatoire.</value>

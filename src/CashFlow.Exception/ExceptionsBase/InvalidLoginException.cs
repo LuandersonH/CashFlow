@@ -4,7 +4,7 @@ namespace CashFlow.Exception.ExceptionsBase;
 
 public class InvalidLoginException : CashFlowException
 {
-    public InvalidLoginException() : base("Email e/ou senha inválidos.")
+    public InvalidLoginException() : base(ResourceErrorMessages.INVALID_LOGIN)
     {
     }
 

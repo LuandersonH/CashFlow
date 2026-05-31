@@ -5,6 +5,7 @@ using CashFlow.Domain.Repositories;
 using CashFlow.Domain.Repositories.User;
 using CashFlow.Domain.Security.Cryptography;
 using CashFlow.Domain.Security.Tokens;
+using CashFlow.Exception;
 using CashFlow.Exception.ExceptionsBase;
 using FluentValidation.Results;
 
@@ -63,7 +64,7 @@ public class RegisterUserUseCase : IRegisterUserUseCase
         
         if (emailExist)
         {
-            result.Errors.Add(new ValidationFailure(string.Empty, "Email already registered"));
+            result.Errors.Add(new ValidationFailure(string.Empty, ResourceErrorMessages.EMAIL_ALREADY_REGISTERED));
         }
 
         if (result.IsValid == false)
