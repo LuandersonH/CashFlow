@@ -59,7 +59,7 @@ public class RegisterUserUseCaseTest
         var mapper = MapperBuilder.Build();
         var unitOfWork = UnitOfWorkBuilder.Build();
         var writeOnlyRepository = UserWriteOnlyRepositoryBuilder.Build();
-        var passwordEncrypter = PasswordEncripterBuilder.Build();
+        var passwordEncrypter = new PasswordEncripterBuilder().Build();
         var jwtTokenGenerator = JwtTokenGeneratorBuilder.Build();
         var readOnlyRepository = new UserReadOnlyRepositoryBuilder();
 
