@@ -37,18 +37,37 @@ public class RegisterUserUseCaseTest
 
         var result = await act.Should().ThrowAsync<ErrorOnValidationException>();
 
-        result.Where(ex => ex.getErros().Count() == 1 && ex.getErros().Contains(ResourceErrorMessages.NAME_REQUIRED)); 
+        result.Where(ex => ex.getErros().Count() == 1 && ex.getErros().Contains(ResourceErrorMessages.NAME_REQUIRED));
     }
 
-    private RegisterUserUseCase CreateUsecase()
+    [Fact]
+    public async Task Error_Email_Already_Exists()
+    {
+        var request = RequestRegisterUserJsonBuilder.Build();
+
+        var useCase = CreateUsecase(request.Email);
+
+        var act = async () => await useCase.Execute(request);
+
+        var result = await act.Should().ThrowAsync<ErrorOnValidationException>();
+
+        result.Where(ex => ex.getErros().Count() == 1 && ex.getErros().Contains(ResourceErrorMessages.EMAIL_ALREADY_REGISTERED));
+    }
+
+    private RegisterUserUseCase CreateUsecase(string? email = null)
     {
         var mapper = MapperBuilder.Build();
         var unitOfWork = UnitOfWorkBuilder.Build();
         var writeOnlyRepository = UserWriteOnlyRepositoryBuilder.Build();
         var passwordEncrypter = PasswordEncripterBuilder.Build();
         var jwtTokenGenerator = JwtTokenGeneratorBuilder.Build();
-        var readOnlyRepository = new UserReadOnlyRepositoryBuilder().Build();
+        var readOnlyRepository = new UserReadOnlyRepositoryBuilder();
 
-        return new RegisterUserUseCase(mapper, passwordEncrypter, readOnlyRepository, writeOnlyRepository, unitOfWork, jwtTokenGenerator);
+        if (string.IsNullOrWhiteSpace(email) == false)
+        { 
+            readOnlyRepository.ExistActiveUserWithEmail(email);
+        }
+
+        return new RegisterUserUseCase(mapper, passwordEncrypter, readOnlyRepository.Build(), writeOnlyRepository, unitOfWork, jwtTokenGenerator);
     }
 }
