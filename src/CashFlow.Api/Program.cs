@@ -2,6 +2,7 @@ using CashFlow.Api.Filters;
 using CashFlow.Api.Middleware;
 using CashFlow.Application;
 using CashFlow.Infrastructure;
+using CashFlow.Infrastructure.Extensions;
 using CashFlow.Infrastructure.Migrations;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
@@ -90,9 +91,15 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-await MigrateDatabase();
+if(builder.Configuration.IsTestEnvironment() == false)
+{
+    await MigrateDatabase();
+}
 
 app.Run();
+
+// This method is used to apply any pending migrations to the database when the application starts.
+// Must be invoced only when the application is not running in a test environment.
 async Task MigrateDatabase()
 {
     await using var scope = app.Services.CreateAsyncScope();
